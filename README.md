@@ -48,11 +48,59 @@ a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empre
 #### 1. Clone o repositório
 
 Clone o repositório no terminal
+``` bash 
 git clone https://github.com/Agda-Cavalcanti/ChatBot-Energia-Solar.git
+```
 
+#### 2. Crie o arquivo .env com suas chaves
+Crie um arquivo chamado .env na raiz do projeto com o seguinte conteúdo:
+``` bash
+OPENAI_API_KEY=sua_chave_aqui
+ASSISTANT_ID=seu_assistant_id_aqui
+```
+🔒 Atenção: nunca compartilhe este arquivo publicamente! (Adicione o arquivo .env no .gitignore)
 
-#### 2. Instale as dependências
+#### 3. Estrutura esperada do projeto
+``` bash
+ChatBot-Energia-Solar/
+├── main.py
+├──.gitignore
+├──Logs.logs (Deve ser adicionado no .gitignore)
+├── .env
+├── utils/
+│   └── logging_config.py
+├── static/
+│   └── index.html
+    └── solar-backgroung.png
+    └── style.css
+```
+#### 4. Inicie o servidor
+``` bash
+python main.py
+```
+A aplicação estará acessível em:
 
+``` bash
+(http://127.0.0.1:8000)
+```
+ #### 5. Teste com Postman (opcional)
+ Envie um POST para /chat com um corpo como:
+ ``` bash
+{
+  "pergunta": "O que é energia solar?"
+}
+```
+E receba uma resposta como:
+ ``` bash
+{
+  "resposta": "Energia solar é..."
+}
+
+```
+ #### 6. Frontend (HTML opcional)
+ Se quiser usar o arquivo index.html, abra no navegador. Ele já está configurado para se comunicar com o backend local.
+
+  
 # Tecnologias utilizadas
 - Visual Studio Code (IDE)
 - JavaScript 
