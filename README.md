@@ -1,6 +1,6 @@
 <h1 align="center"> SolarIA -ChatBot </h1>
 <h2 align="center">Aprenda os conceitos básicos de energia solar de forma simples e interativa</h2> 
-<p align="center"><img src="assets/telainicial.png" alt="Imagem representativa de amigo secreto" width="700">
+<p align="center"><img src="static/tela-de-apresentacao.png" alt="Imagem representativa de amigo secreto" width="700">
 </p>
 
 
@@ -32,7 +32,7 @@ a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empre
 - `Funcionalidade 5`:<b>Contexto mantido</b> mantém o contexto da conversa com utilização das threads, promovendo um aprendizado dinâmico e produtivo.
 
 ## Demonstração do projeto
-![Demonstração](assets/AmigoSecreto-GoogleChrome2025-03-1615-23-07-ezgif.com-video-to-gif-converter.gif)
+![Demonstração](static/Para apresentacao.gif)
 
 
 ## 🛠️ Abrir e rodar o projeto
