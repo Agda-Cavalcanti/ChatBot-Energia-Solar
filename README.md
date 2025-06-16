@@ -26,8 +26,9 @@ a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empre
 
 - `Funcionalidade 1`:<b>Recebe perguntas:</b> recebe perguntas do usuário.
 - `Funcionalidade 2`:<b>Devolve uma resposta:</b> responde com explicações simples e diretas.
+- `Funcionalidade 2a`:<b>Base de conhecimento</b> Responde baseado apenas nas fontes que foram passadas, exemplo: pdfs, bancos de dados etc.
 - `Funcionalidade 3`:<b>Pergunta para incentivo:</b> sempre faz uma pergunta final para incentivar o usuário a continuar a conversa. 
-- `Funcionalidade 4`:<b>Perguntas fora do contexto</b>  Lida com perguntas fora do tema, retornando uma mensagem educada.
+- `Funcionalidade 4`:<b>Perguntas fora do escopo</b>  Lida com perguntas fora do tema, retornando uma mensagem educada.
 - `Funcionalidade 5`:<b>Contexto mantido</b> mantém o contexto da conversa com utilização das threads, promovendo um aprendizado dinâmico e produtivo.
 
 # Demonstração do projeto
@@ -103,12 +104,14 @@ E receba uma resposta como:
 
   
 # Tecnologias utilizadas
-- Visual Studio Code (IDE)
-- JavaScript 
-- HTML 
-- CSS
-- GitHub Pages (Hospedagem da página)
-- Trello 
+- Python + Flask: servidor backend
+- Flask-CORS: habilitar requisições externas
+- OpenAI API + Assistente GPT: IA, PLN
+- HTML/CSS (frontend): interface do usuário
+- Postman: ferramenta para testar requisições HTTP
+- dotenv: carregamento seguro da chave da API e ID do Assistente GPT
+- logging: registros detalhados de funcionamento
+
 
 # Autores
  ## 📄 Licença
@@ -122,10 +125,10 @@ Desenvolvido por [Agda Cavalcanti](https://github.com/Agda-Cavalcanti).
 <p>:heavy_check_mark: O projeto foi concluído conforme o objetivo da Unidade Curricular de Inteligência Artificial, mas com oportunidades de melhorias.
 
 Embora tenha cumprido todas as exigências da atividade, identifiquei algumas áreas que podem ser aprimoradas, como:</p>
--Hospedar código backend e fronted 
--Criação de login e armazenando de históricos de conversas para cada usuário
--Implementar banco de dados para controle de conversas
--Integração com apps (Como Whatsapp, Telegram…)
+- Hospedar código backend e fronted 
+- Criação de login e armazenando de históricos de conversas para cada usuário
+- Implementar banco de dados para controle de conversas
+- Integração com apps (Como Whatsapp, Telegram…)
 
 
  #  Conclusão
