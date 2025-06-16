@@ -110,39 +110,30 @@ E receba uma resposta como:
 - Trello 
 
 # Autores
-
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/74327882?v=4" width=115><br><sub>Agda Cavalcanti</sub>](https://github.com/Agda-Cavalcanti) 
-
-# Pessoas Contribuidoras
-
-<p align="center" ">
-  A <strong>Alura</strong> disponibilizou o HTML e o CSS do projeto, permitindo que os esforços fossem dedicados apenas à lógica, que é o principal objetivo de aprendizado.
-</p>
-
-<p align="center">
-  <img src="assets/ImgALura.jpg" alt="Imagem Alura" width="100">
-</p>
-
-
-
+ ## 📄 Licença
+Este projeto é apenas para fins educacionais.
+Desenvolvido por [Agda Cavalcanti](https://github.com/Agda-Cavalcanti).
+<br>
+<img loading="lazy" src="https://avatars.githubusercontent.com/u/74327882?v=4" width=115> 
 
 
 # Futuras melhorias
-<p>:heavy_check_mark: O projeto foi concluído conforme os requisitos do challenge, mas com oportunidades de melhorias.
+<p>:heavy_check_mark: O projeto foi concluído conforme o objetivo da Unidade Curricular de Inteligência Artificial, mas com oportunidades de melhorias.
 
-Embora tenha cumprido todas as exigências do desafio, identifiquei algumas áreas que podem ser aprimoradas, como:</p>
+Embora tenha cumprido todas as exigências da atividade, identifiquei algumas áreas que podem ser aprimoradas, como:</p>
+-Hospedar código backend e fronted 
+-Criação de login e armazenando de históricos de conversas para cada usuário
+-Implementar banco de dados para controle de conversas
+-Integração com apps (Como Whatsapp, Telegram…)
 
-- Fazer outro sorteio sem repetir os nomes.
-- O campo do resultado do sorteio deve ser limpo quando tiver outro sorteio, não mostrando os resultados anteriores para o usuário (Essa funcionalidade é útil se for utilizado por um grupo de amigos, cada um pode então sortear o seu amigo secreto).  
-- Colocar a lista de nomes em outro lugar da tela para melhorar a visualização dos nomes e do botão de sortear.
-- Opções para alterar e excluir nomes.
 
 # Conclusão
-<p>Este challenge foi uma excelente oportunidade de aprendizado e prática dos conceitos anteriormente estudados.<br><br>Pude aperfeiçoar o conceito de lógica de programação, consolidar meus conhecimentos, dominar o pensamento lógico, aprimorar as habilidades de análise e resolução de problemas, além de ampliar minha perspectiva no mundo do desenvolvimento.</p>
+<p>O ChatBot SolarIA e tecnologias similares são capazes de <b>democratizar o conhecimento</b> e promover o interesse em diversas áreas, interagindo de forma dinâmica e incentivando o usuário a continuar aprendendo novos tópicos.
+</p>
 
 
 <p align="center">
-  <img src="assets/badge.webp" alt="Badge" width="300">
+  <img src="static/logo.png" alt="Logo" width="300">
 </p>
 
 
