@@ -1,29 +1,28 @@
-<h1 align="center"> SolarIA -ChatBot </h1>
+<h1 align="center"> <b>SolarIA -ChatBot</b> </h1>
 <h2 align="center">Aprenda os conceitos básicos de energia solar de forma simples e interativa</h2> 
 <p align="center"><img src="static/tela-de-apresentacao.png" alt="Imagem representativa de amigo secreto" width="700">
 </p>
 
 
 
-## Descrição do projeto
+# Objetivo 
 
 <p>O <b>SolarIA</b> é um <b>chatbot vertical</b> que tem como objetivo ensinar de forma clara, simples e didática
 a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empresas etc</p>
 <h4 align="center"> :heavy_check_mark: Projeto Finalizado :heavy_check_mark:</h4>
 
 
-## Índice 
+#  Índice 
 
-* [Descrição do projeto](#descrição-do-projeto)
+* [Objetivo](#objetivo)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Autores](#autores)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Futuras melhorias](#futuras-melhorias)
 * [Conclusão](#conclusão)
 
-## Funcionalidades e Demonstração da Aplicação
+# Funcionalidades e Demonstração da Aplicação 
 
 - `Funcionalidade 1`:<b>Recebe perguntas:</b> recebe perguntas do usuário.
 - `Funcionalidade 2`:<b>Devolve uma resposta:</b> responde com explicações simples e diretas.
@@ -31,13 +30,15 @@ a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empre
 - `Funcionalidade 4`:<b>Perguntas fora do contexto</b>  Lida com perguntas fora do tema, retornando uma mensagem educada.
 - `Funcionalidade 5`:<b>Contexto mantido</b> mantém o contexto da conversa com utilização das threads, promovendo um aprendizado dinâmico e produtivo.
 
-## Demonstração do projeto
-![Demonstração](static/Para apresentacao.gif)
+# Demonstração do projeto
+### <b>Veja uma demonstração rápida do ChatBot:</b>
+![Demonstração](static/para-apresentacao.gif)
 
+<br>[Clique aqui e assista o vídeo da interação de um usuário com o ChatBot SolarIA.](https://youtu.be/jHwEyOo43Pg?si=bLv6liFekGiii-DU)
 
-## 🛠️ Abrir e rodar o projeto
+# Acesso ao projeto
 
-### ✅ Pré-requisitos
+##  Pré-requisitos
 
 - Python 3.8 ou superior
 - Conta na [OpenAI](https://platform.openai.com/)
@@ -45,14 +46,14 @@ a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empre
 - ID do Assistente (Assistant ID) criado na plataforma da OpenAI
 - Git instalado (opcional, mas recomendado)
 
-#### 1. Clone o repositório
+### 1. Clone o repositório
 
 Clone o repositório no terminal
 ``` bash 
 git clone https://github.com/Agda-Cavalcanti/ChatBot-Energia-Solar.git
 ```
 
-#### 2. Crie o arquivo .env com suas chaves
+### 2. Crie o arquivo .env com suas chaves
 Crie um arquivo chamado .env na raiz do projeto com o seguinte conteúdo:
 ``` bash
 OPENAI_API_KEY=sua_chave_aqui
@@ -60,7 +61,7 @@ ASSISTANT_ID=seu_assistant_id_aqui
 ```
 🔒 Atenção: nunca compartilhe este arquivo publicamente! (Adicione o arquivo .env no .gitignore)
 
-#### 3. Estrutura esperada do projeto
+### 3. Estrutura esperada do projeto
 ``` bash
 ChatBot-Energia-Solar/
 ├── main.py
@@ -74,7 +75,7 @@ ChatBot-Energia-Solar/
     └── solar-backgroung.png
     └── style.css
 ```
-#### 4. Inicie o servidor
+### 4. Inicie o servidor
 ``` bash
 python main.py
 ```
@@ -83,7 +84,7 @@ A aplicação estará acessível em:
 ``` bash
 (http://127.0.0.1:8000)
 ```
- #### 5. Teste com Postman (opcional)
+ ### 5. Teste com Postman (opcional)
  Envie um POST para /chat com um corpo como:
  ``` bash
 {
@@ -97,7 +98,7 @@ E receba uma resposta como:
 }
 
 ```
- #### 6. Frontend (HTML opcional)
+ ### 6. Frontend (HTML opcional)
  Se quiser usar o arquivo index.html, abra no navegador. Ele já está configurado para se comunicar com o backend local.
 
   
@@ -127,7 +128,7 @@ Embora tenha cumprido todas as exigências da atividade, identifiquei algumas á
 -Integração com apps (Como Whatsapp, Telegram…)
 
 
-# Conclusão
+ #  Conclusão
 <p>O ChatBot SolarIA e tecnologias similares são capazes de <b>democratizar o conhecimento</b> e promover o interesse em diversas áreas, interagindo de forma dinâmica e incentivando o usuário a continuar aprendendo novos tópicos.
 </p>
 
