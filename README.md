@@ -44,22 +44,14 @@ a pessoas interessadas em energia solar, sejam elas, iniciantes, curiosos, empre
 - Chave da API da OpenAI
 - ID do Assistente (Assistant ID) criado na plataforma da OpenAI
 - Git instalado (opcional, mas recomendado)
-- 
+
 #### 1. Clone o repositório
 
 Clone o repositório no terminal
 git clone https://github.com/Agda-Cavalcanti/ChatBot-Energia-Solar.git
 
 
-Execute o servidor:
-python main.py
-Utilize o front para testar a aplicação do chatbot
-Clique com o botão direito no arquivo index.html e selecione a opção “Open with Live Server”, e pronto, agora é só testar a aplicação!
-
-#### 2. Crie e ative um ambiente virtual
-  ```bash
-  python -m venv venv
-  ```
+#### 2. Instale as dependências
 
 # Tecnologias utilizadas
 - Visual Studio Code (IDE)
